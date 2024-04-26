@@ -7,9 +7,10 @@ public class Kaulins {
      int reizes;
 
      Scanner scan = new Scanner(System.in);
+     do {
      System.out.println("Cik reizes mest kauliņu?");
      reizes = scan.nextInt();
-     
+     }while(reizes<1);
      scan.close();
 
 		mestKaulinu(5);
