@@ -5,7 +5,9 @@ public class Kaulins {
 	public static void main(String[] args) {
 
      int reizes;
-
+	for(int i=0;i<reizes;i++)
+	System.out.println("tu smirdi");
+		
      Scanner scan = new Scanner(System.in);
      do {
      System.out.println("Cik reizes mest kauliņu?");
