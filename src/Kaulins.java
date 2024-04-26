@@ -17,14 +17,19 @@ public class Kaulins {
 	}
 	
 		static void mestKaulinu(int reizes) {
-			 int skaitlis;
+			 int skaitlis, lielakais = 0;
 		     Random rand = new Random();
 		     for(int i=0; i<reizes; i++) {
 		    	 
 		     
 		     skaitlis = rand.nextInt(6)+1;
 		     System.out.println("Tu uzmeti: "+skaitlis);
+		     if(lielakais <skaitlis)
+		    	 lielakais = skaitlis;
+		     
+		     
 		     }
+		     System.out.println("Lielākais skaitlis ko uzmeta bija "+lielakais);
 		
 		
      
